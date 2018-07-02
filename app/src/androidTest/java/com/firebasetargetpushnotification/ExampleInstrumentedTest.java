@@ -1,4 +1,4 @@
-package zipu.com.firebasetargetpushnotification;
+package com.bongo.pushservice;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("zipu.com.firebasetargetpushnotification", appContext.getPackageName());
+        assertEquals("zipu.com.bongo.pushservice", appContext.getPackageName());
     }
 }

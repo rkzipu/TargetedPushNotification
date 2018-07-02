@@ -4,7 +4,7 @@
 
     To get one, follow this link, follow the directions and press "Create" at the end:
 
-    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=C0:61:12:E9:7A:88:40:C5:B8:54:16:01:7C:0C:EA:14:96:DE:A6:2B%3Bzipu.com.firebasetargetpushnotification
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=C0:61:12:E9:7A:88:40:C5:B8:54:16:01:7C:0C:EA:14:96:DE:A6:2B%3Bzipu.com.bongo.pushservice
 
     You can also add your credentials to an existing key, using these values:
 

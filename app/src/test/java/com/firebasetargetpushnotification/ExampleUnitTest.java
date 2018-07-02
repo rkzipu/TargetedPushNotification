@@ -1,4 +1,4 @@
-package zipu.com.firebasetargetpushnotification;
+package com.bongo.pushservice;
 
 import org.junit.Test;
 
