@@ -10,10 +10,9 @@ import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import com.bongo.pushservice.R;
+
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-
 
 import java.util.Random;
 
@@ -22,6 +21,25 @@ import static android.app.PendingIntent.FLAG_IMMUTABLE;
 public class FirebaseMessageRecvService extends FirebaseMessagingService {
     private static final String TAG = "FirebaseMessageRecvServ";
     private static int notificationId;
+
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        Log.d(TAG, "onCreate() called");
+    }
+
+    @Override
+    public void onMessageSent(String s) {
+        super.onMessageSent(s);
+        Log.d(TAG, "onMessageSent() called with: s = [" + s + "]");
+    }
+
+    @Override
+    public void onNewToken(String s) {
+        super.onNewToken(s);
+        Log.d(TAG, "onNewToken() called with: s = [" + s + "]");
+    }
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
@@ -32,7 +50,7 @@ public class FirebaseMessageRecvService extends FirebaseMessagingService {
 
         // Check if message contains a data payload.
         if (remoteMessage.getData().size() > 0) {
-            setNotificationToService(remoteMessage.getData().get("message"),remoteMessage.getData().get("title"),getIntent());
+            setNotificationToService(remoteMessage.getData().get("message")+remoteMessage.getData().get("id"),remoteMessage.getData().get("title"),getIntent());
             Log.d(TAG, "Message data payload: " + remoteMessage.getData());
             //showNotification(remoteMessage.getData().toString());
             if (/* Check if data needs to be processed by long running job */ true) {

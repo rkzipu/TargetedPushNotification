@@ -36,7 +36,9 @@
             android:label="@string/title_activity_maps">
         </activity>
 
-        <service android:name="com.bongo.pushservice.FirebaseMessageRecvService">
+        <service android:name="com.bongo.pushservice.FirebaseMessageRecvService"
+            android:enabled="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
