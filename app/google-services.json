@@ -1,31 +1,27 @@
 {
   "project_info": {
-    "project_number": "99349277240",
-    "firebase_url": "https://skilled-eon-205509.firebaseio.com",
-    "project_id": "skilled-eon-205509",
-    "storage_bucket": "skilled-eon-205509.appspot.com"
+    "project_number": "331743095913",
+    "firebase_url": "https://rkzipu-ecd1d.firebaseio.com",
+    "project_id": "rkzipu-ecd1d",
+    "storage_bucket": "rkzipu-ecd1d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:99349277240:android:e3a88cb2dc65c991",
+        "mobilesdk_app_id": "1:331743095913:android:364df352b334a14d",
         "android_client_info": {
-          "package_name": "zipu.com.firebasetargetpushnotification"
+          "package_name": "com.bongo.pushservice"
         }
       },
       "oauth_client": [
         {
-          "client_id": "99349277240-7lo7cit5oql2ru984fbc3oq1qdag936v.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "99349277240-7lo7cit5oql2ru984fbc3oq1qdag936v.apps.googleusercontent.com",
+          "client_id": "331743095913-gpqrnsul7k0afl43ogscqaqp4s75244j.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCZBiS5g746fSZdkgWzqI8hk7c9ZqbTNGg"
+          "current_key": "AIzaSyBJEYERA0hdNb_2d04C1cFVsPxUSoeR_RE"
         }
       ],
       "services": {
